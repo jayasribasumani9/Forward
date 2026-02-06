@@ -1,0 +1,21 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["hi","Hello","Hey!","Hy there!","good morning"],
+            "responses":["Hello!","Hey there!","Hey!How can i help you!"]
+        },
+
+        {
+            "tag":"goodbye",
+            "patterns":["bye","exit","quit"],
+            "responses":["Goodbye!","see u later","take care"]
+        },
+
+        {
+            "tag":"ai_definition",
+            "patterns":["what is Ai","define Ai","Ai meaning"],
+            "responses":["AI stands for Artificial Intelligence — machines that think like humans."]
+        }
+    ]
+}
